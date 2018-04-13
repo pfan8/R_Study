@@ -1,0 +1,8 @@
+library(RColorBrewer)
+library(spData)
+library(Matrix)
+library(spdep)
+library(maptools)
+library(rgdal)
+rob.shp=readOGR(".\\R\\贵州省县区区划\\2017县界.shp")
+plot(rob.shp,axes = TRUE)
